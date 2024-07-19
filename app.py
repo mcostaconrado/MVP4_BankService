@@ -19,7 +19,7 @@ routes_tag = Tag(name="Routes", description="Implemented routes for Bank service
 user_endpoint = "http://127.0.0.1:5001/"
 transaction_endpoint = "http://127.0.0.1:5002/"
 translation_endpoint = "https://api.currencyapi.com/v3/latest"
-API_KEY = "cur_live_1FBIpRezDIYmxzrECRgpEBYswaBsYU9qWdbOkgoC"
+API_KEY = ""
 
 def get_translation_rate(currency:str):
     payload = {
