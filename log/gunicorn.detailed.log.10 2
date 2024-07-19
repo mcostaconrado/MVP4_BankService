@@ -1,0 +1,53 @@
+[2024-07-18 02:28:52,191] ERROR log_exception() L1449 Exception on /deposit [POST] - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py L1449
+Traceback (most recent call last):
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1730, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a Response.
+[2024-07-18 02:28:52,193] INFO _log() L224  127.0.0.1 - - [18/Jul/2024 02:28:52] "[35m[1mPOST /deposit HTTP/1.1[0m" 500 - - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2024-07-18 02:30:33,872] INFO _log() L224   * Detected change in '/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/app.py', reloading - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2024-07-18 02:30:37,391] ERROR log_exception() L1449 Exception on /deposit [POST] - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py L1449
+Traceback (most recent call last):
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1730, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a Response.
+[2024-07-18 02:30:37,395] INFO _log() L224  127.0.0.1 - - [18/Jul/2024 02:30:37] "[35m[1mPOST /deposit HTTP/1.1[0m" 500 - - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2024-07-18 02:31:26,882] ERROR log_exception() L1449 Exception on /deposit [POST] - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py L1449
+Traceback (most recent call last):
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1730, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a Response.
+[2024-07-18 02:31:26,883] INFO _log() L224  127.0.0.1 - - [18/Jul/2024 02:31:26] "[35m[1mPOST /deposit HTTP/1.1[0m" 500 - - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2024-07-18 02:31:32,765] ERROR log_exception() L1449 Exception on /deposit [POST] - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py L1449
+Traceback (most recent call last):
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1520, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1539, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/flask/app.py", line 1730, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a Response.
+[2024-07-18 02:31:32,768] INFO _log() L224  127.0.0.1 - - [18/Jul/2024 02:31:32] "[35m[1mPOST /deposit HTTP/1.1[0m" 500 - - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2024-07-18 02:35:04,990] INFO _log() L224  127.0.0.1 - - [18/Jul/2024 02:35:04] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2024-07-18 02:35:05,003] INFO _log() L224  127.0.0.1 - - [18/Jul/2024 02:35:05] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2024-07-18 02:35:55,724] INFO _log() L224   * Detected change in '/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/app.py', reloading - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/werkzeug/_internal.py L224 
+[2024-07-18 02:36:16,514] INFO _log() L224   * Detected change in '/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/app.py', reloading - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/werkzeug/_internal.py L224 

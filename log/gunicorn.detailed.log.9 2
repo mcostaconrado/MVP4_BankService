@@ -1,0 +1,1 @@
+[2024-07-18 12:16:32,608] INFO _log() L224   * Detected change in '/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/app.py', reloading - call_trace=/Users/conradocosta/Desktop/MVP - MICROSSERVIÇOS/bank_service/env_app/lib/python3.9/site-packages/werkzeug/_internal.py L224 
