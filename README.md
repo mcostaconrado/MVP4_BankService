@@ -21,7 +21,7 @@ Este comando criará a imagem da máquina onde o microsserviço rodará.
 Em seguida, após as configurações realizadas automaticamente, basta rodar o seguinte comando:
 
 ```
-$ docker run -p 5000:5000 bank_service .
+$ docker run -p 5000:5000 bank_service
 ```
 
 O microsserviço, portanto, estará pronto para ser utilizado, acessando o seguinte link no seu navegador:
